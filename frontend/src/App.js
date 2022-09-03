@@ -9,14 +9,14 @@ function App() {
     <BrowserRouter>
       <Switch>
         <Route exact path="/">
-          <Login/>
+          <Login />
         </Route>
         <Route path="/register">
-          <Register/>
+          <Register />
         </Route>
         <Route path="/dashboard">
-          <Navbar/>
-          <Dashboard/>
+          <Navbar />
+          <Dashboard />
         </Route>
       </Switch>
     </BrowserRouter>
